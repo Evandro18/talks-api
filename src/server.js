@@ -12,28 +12,14 @@ app.use(
   })
 )
 app.use(helmet())
-app.use(
-  bodyParser.json({
-    limit: '20mb',
-  })
-)
-app.use(
-  bodyParser.urlencoded({
-    limit: '20mb',
-    extended: true,
-  })
-)
+app.use(bodyParser.json({ limit: '20mb' }))
+app.use(bodyParser.urlencoded({ limit: '20mb', extended: true }))
 app.use('/api', api)
 app.use('/', (req, res) => {
-  res.status(200).json({
-    success: true,
-    message: 'Health Check OK!',
-  })
+  res.status(200).json({ success: true, message: 'Health Check OK!' })
 })
 app.use(function (req, res) {
-  res.status(404).json({
-    message: 'Route not found',
-  })
+  res.status(404).json({ message: 'Route not found' })
 })
 
 const PORT = process.env.PORT
