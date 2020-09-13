@@ -1,7 +1,9 @@
 export const setDateHours = (...args) => {
   const date = new Date()
   date.setHours(...args)
-  date.toLocaleString("pt-BR", { timeZone: "America/Campo_Grande" })
+  date.toLocaleString('pt-BR', {
+    timeZone: 'America/Campo_Grande',
+  })
   return date
 }
 

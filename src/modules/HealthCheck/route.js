@@ -1,5 +1,5 @@
 import { Router } from 'express'
-import { healthController as ctrl } from './Controller'
+import ctrl from './Controller'
 /**
  * @param {Router} router
  */

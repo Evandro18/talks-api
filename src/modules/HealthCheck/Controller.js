@@ -1,10 +1,20 @@
-import httpStatus from 'http-status';
+import { Response, Request } from 'express'
+import httpStatus from 'http-status'
 
+/**
+ * @class HealthCheckController
+ */
 class HealthCheckController {
+  /**
+   * @param {Request} req
+   * @param {Response} res
+   */
   check(req, res) {
-    res.status(httpStatus.Ok).json({ message: 'Service running', success: true })
+    res.status(httpStatus.Ok).json({
+      message: 'Service running',
+      success: true,
+    })
   }
-
 }
 
-export const healthController = new HealthCheckController()
+export default new HealthCheckController()
