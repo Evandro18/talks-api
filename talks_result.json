@@ -1,0 +1,33 @@
+[
+    {
+        "title": "Track 1",
+        "data": [
+            "09:00 Ruby on Rails: Why We Should Move On ",
+            "10:00 Ruby Errors from Mismatched Gem Versions ",
+            "10:45 Overdoing it in Python ",
+            "11:30 Programming in the Boondocks of Seattle ",
+            "13:00 Ruby vs. Clojure for Back-End Development ",
+            "13:30 Lua for the Masses ",
+            "14:00 Pair Programming vs Noise ",
+            "14:45 Accounting-Driven Development ",
+            "15:30 User Interface CSS in Rails Apps ",
+            "16:00 Sit Down and Write ",
+            "16:30 Rails for Python Developers ",
+            "16:35 Networking Event"
+        ]
+    },
+    {
+        "title": "Track 2",
+        "data": [
+            "09:00 Writing Fast Tests Against Enterprise Rails ",
+            "10:00 Woah ",
+            "10:30 Rails Magic ",
+            "11:30 A World Without HackerNews ",
+            "13:00 Common Ruby Errors ",
+            "13:45 Communicating Over Distance ",
+            "14:45 Ruby on Rails Legacy App Maintenance ",
+            "15:45 Clojure Ate Scala (on my project) ",
+            "16:35 Networking Event"
+        ]
+    }
+]
